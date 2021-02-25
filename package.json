@@ -2,16 +2,18 @@
   "name": "fww_personalityquiz",
   "version": "1.0.0",
   "dependencies": {
+    "bootstrap": "latest",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-sass": "^3.1.0",
     "jquery": "latest",
-    "bootstrap": "latest"
+    "node-sass": "^5.0.0"
   },
   "devDependencies": {
-    "sass": "latest",
     "grunt": "latest",
-    "grunt-contrib-sass": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-watch": "latest",
     "grunt-contrib-connect": "latest",
-    "grunt-contrib-uglify": "latest"
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "sass": "latest"
   }
 }
