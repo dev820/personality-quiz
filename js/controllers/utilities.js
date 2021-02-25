@@ -21,6 +21,7 @@ Utilities = (function () {
     }
     var resetInteractive = function () {
         $attract = $('#introduction');
+        $('body').scrollTop(0);
         if ($attract.hasClass('hidden')) {
             $attract.removeClass('hidden').removeClass('fade').addClass('in');
             $('.home-button').addClass('fade').removeClass('in');
